@@ -2,15 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>周二的html基础练习</title>
+    <title>CSS</title>
+    <style type="text/css">
+       *{margin:0;padding:0;}
+       .wrapper{width:960px;margin:0 auto; text-align:left;}
+   header{background-color:black;
+            color:white;
+            margin-bottom:10px ;}
+.sidebar{width:220px;display:inline;margin-left:20px;float:right;margin-bottom:5px;}
+.main-content{width:720px;display:inline;float:left;margin-bottom:5px;}
+
+  footer{background-color:black;
+       color:white;
+       clear:both;
+      text-align:center;
+      padding:15px;
+      font-size:90%;
+   }
+  ul. lj{float:right;display:block;}
+ ul.pic{margin:0 auto ; width:535px;overflow:hidden;}
+ ul.pic li{float:left;padding:4px 8px;width:160px;}
+  ul.pic li img{display:block;width:160px;height:90px;}
+  ul.pic li span{display:block;width:100%;height:30px;line-height:30px;background:#F6F6F6;}
+       #left{width:300px;height:100%;background-color:#ccc;float:left;}
+        #right{height:100%;margin-left:300px;background-color:#eee;}
+    </style>
 </head>
 <body>
-<h1>网站一级标题</h1>
-<ul type="disc">
+<div class="wrapper">
+<header>
+    <h1>网站一级标题</h1>
+<ul class="lj" type="disc">
     <li><a href="http://www.w3school.com.cn/">导航链接一</a></li>
     <li><a href="http://www.w3school.com.cn/">导航链接二</a></li>
     <li><a href="http://www.w3school.com.cn/">导航链接三</a></li>
     <li><a href="http://www.w3school.com.cn/">导航链接四</a></li></ul>
+</header>
+<div class="main-content">
+
+<div class="k">
     <h2>文章一级标题</h2>
     <h2>文章二级标题</h2>
     <p>文章作者 文章发表时间</p>
@@ -21,40 +51,58 @@
 <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落</p><strong>这里有个粗体字</strong>
 <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p><<a href="http://ife.baidu.com/"target="_blank">这里有个链接点击后打开新窗口链接到http://ife.baidu.com</a>
 <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
-<h1>另一文章一级标题</h1>
+</div>
+<div class="k">
+    <h1>另一文章一级标题</h1>
 <h2>文章二级标题</h2>
 <p>文章作者 文章发表时间</p>
 <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>br>
 这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>
 <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
-<div><img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px"></div>
+<img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px">
 <ul type="disc">
     <li>列表项目一</li>
     <li>列表项目二</li>
     <li>列表项目三</li>
     </ul>
+</div>
+<div class="k">
 <h2>图片</h2>
-<h3>好看的图片</h3>
-<img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px">
-<h3>好看的图片</h3>
-<img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px">
-<h3>好看的图片</h3>
-<img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px">
-<h3>好看的图片</h3>
-<img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px">
-<h3>好看的图片</h3>
-<img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px">
-<h3>好看的图片</h3>
-<img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px">
-<h3>好看的图片</h3>
-<img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px">
-<h3>好看的图片</h3>
-<img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px">
-<h3>好看的图片</h3>
-<img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px">
-<h3>好看的图片</h3>
-<img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px">
-<h1>最后一篇文章一级标题</h1>
+    <ul class="pic">
+    <li>
+<span>好看的图片</span>
+        <img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px"></li>
+    <li>
+        <span>好看的图片</span>
+        <img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px"></li>
+    <li>
+        <span>好看的图片</span>
+        <img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px"></li>
+    <li>
+        <span>好看的图片</span>
+        <img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px"></li>
+    <li>
+        <span>好看的图片</span>
+        <img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px"></li>
+    <li>
+        <span>好看的图片</span>
+        <img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px"></li>
+    <li>
+        <span>好看的图片</span>
+        <img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px"></li>
+    <li>
+        <span>好看的图片</span>
+        <img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px"></li>
+    <li>
+        <span>好看的图片</span>
+        <img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px"></li>
+    <li>
+        <span>好看的图片</span>
+        <img src="http://down.szonline.net/uploads/allimg/170227/1K4121T2_0.jpg"title="第89届奥斯卡"alt="获奖影片" width="300px"></li>
+    </ul>
+</div>
+<div class="k">
+    <h1>最后一篇文章一级标题</h1>
 <h2>文章二级标题</h2>
 <p>文章作者 文章发表时间</p>
 <ol>
@@ -94,6 +142,9 @@
         <td colspan="2">1000</td>
     </tr>
 </table>
+</div>
+</div>
+<div class="aside sidebar">
 <h2>这里以后是一个侧栏，这是侧栏的标题</h2>
 <h2>侧栏注册窗口标题</h2>
 <form>
@@ -121,15 +172,16 @@
         <input type="checkbox" name="do" value="科学">科学
         <br><br>
         <label>个人描述：</label>
-        <textarea name="message" rows="10" cols="30">
-这是一个多行输入框，输入您的个人描述
-</textarea>
+        <textarea name="message" rows="10" cols="30">这是一个多行输入框，输入您的个人描述</textarea>
         <input type="submit"value="确认提交">
     </form>
+</div>
+    </div>
     <footer>
         <address>
             <a href="mailto:code@343866529@qq.com">龙的邮箱</a>.<br>
         </address>
     </footer>
+</div>
 </body>
 </html>
